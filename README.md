@@ -7,6 +7,7 @@ Computational Approaches to Typography 2018
 <br>Generating asemic writing in grid - based on [Recursive forms](https://editor.p5js.org/allison.parrish/sketches/SJ5aR9L2m) (homage to Anders Hoff) example
 3. [Week 3: Concrete Poetry](https://github.com/alicehgsun/CAT18/tree/master/week3)
 <br>Composing text and image - based on [Marc Adrian homage](https://editor.p5js.org/allison.parrish/sketches/BJMQ7De67) and [Speech to Gif](https://github.com/nicolehe/ITP-hello-computer-f18/tree/master/week2/speech_to_gif) examples
-4. ?
+4. [Week 4: Fonts as Data](https://alicehgsun.github.io/CAT18/week4/)
+<br>Animating type based on [Drawing ttf with p5js commands](https://editor.p5js.org/allison.parrish/sketches/Hy3-Iqm67) with [ML5 PitchDetection](https://ml5js.org/docs/PitchDetection) frequency input
 5. [Week 5: Interactive Type](https://alicehgsun.github.io/CAT18/week5/)
 <br>[Doge](https://en.wikipedia.org/wiki/Doge_(meme)) style generator using [ML5 PoseNet](https://ml5js.org/docs/posenet-webcam)
