@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(0, 0, 30);
   textFont(font);
   // draw food
   for (let i = 0; i < food.length; i++) {
@@ -64,7 +64,7 @@ function draw() {
   }
   for (let i = population.length - 1; i >= 0; i--) {
     v = population[i];
-    // Yum yum (index 0)
+    // Yum! (index 0)
     v.eat(food, 0);
     // Ghost! (index 1)
     v.eat(blinky, 1);
@@ -103,7 +103,7 @@ function keyPressed() {
 function feed() {
   sourceText = shuffle(originalText.split(" "));
   console.log(sourceText)
-  for (let i = 0; i < random(sourceText.length/2); i++) {
+  for (let i = 0; i < random(sourceText.length / 2); i++) {
     let points = font.textToPoints(sourceText[i], random(width), random(height), random(40, 100), {
       sampleFactor: 0.2,
       simplifyThreshold: 0
